@@ -1,0 +1,302 @@
+/* Font imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono&display=swap");
+
+/* Main Html Properties */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Body Property */
+
+.app {
+  text-align: center;
+}
+
+/* Navbar */
+
+.app ul {
+    font-family: 'Pacifico';
+  background-color: black;
+  color: white;
+  margin-top: 0%;
+  list-style: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.app ul li {
+  padding: 20px;
+  margin: 0 20px;
+}
+.app ul li:hover,
+.app ul li a:hover {
+  background-color: #333;
+}
+.app ul li a {
+  color: #bffff0;
+  text-decoration: none;
+}
+.app ul li a.disabled {
+    pointer-events: none;
+    color: #222;
+}
+
+/* Main Container */
+
+.container {
+  display: block;
+  margin: 20px 20px;
+}
+
+/* Upper Headings */
+
+.container .upper-heading .heading1 {
+  font-family: "Roboto mono", monospace;
+  margin: 20px 12px;
+  letter-spacing: -2px;
+}
+.container .upper-heading .heading2 {
+  font-family: "Pacifico", cursive;
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+/* Image Element */
+
+.container .image img {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+/* Media property for image */
+
+@media screen and (max-width: 768px) {
+  .container .image img {
+    width: 100%;
+  }
+}
+
+/* Lower headings */
+
+.container .lower-heading .heading1 {
+  font-family: "Roboto mono", monospace;
+  margin: 20px 12px;
+  letter-spacing: -2px;
+}
+.container .lower-heading .heading2 {
+  font-family: "Pacifico", cursive;
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+/* Changing font size on smaller screens */
+
+@media screen and (max-width: 768px) {
+    .container {
+        font-size: 0.5rem;
+    }
+    .container .upper-heading .heading2{
+        font-size: 1.45rem;
+    }
+    .container .lower-heading .heading2{
+        font-size: 1.45rem;
+    }
+}
+
+/* Description headings */
+
+.container .description .upper-heading {
+   font-family: 'Roboto mono', monospace;
+   letter-spacing: -2px;
+   margin: 20px 12px;
+}
+
+/* Quiz */
+
+.quiz1 {
+    font-family: 'Roboto mono', monospace;
+    letter-spacing: -2px;
+    border: 2px solid white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 550px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+.answers label {
+    display: block;
+    margin: 10px 50px;
+}
+
+.question {
+    margin-top: 2rem;
+    color: red;
+}
+
+#submit {
+    color: #fff;
+    background-color: #000;
+    border: 2px solid #bffff0;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#submit:hover {
+    color: red;
+}
+
+.quiz1 #quiz{
+    margin: 0px 30px;
+}
+
+/* Media queries for quiz */
+
+@media screen and (max-width:768px) {
+    .quiz1 {
+        font-size: 1rem;
+        width: 350px;
+    }
+}
+
+/* Above footer text */
+
+.container .upper-body .heading1{
+    font-family: "Roboto mono", monospace;
+    margin: 20px 12px;
+    letter-spacing: -2px;
+}
+
+.container .upper-body .heading2 {
+    font-family: "Roboto mono", monospace;
+    margin: 20px 12px;
+    font-size: 1.2rem;
+}
+
+.container .upper-body .heading3 {
+    font-family: "Pacifico", cursive;
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+
+/* Media queries for above footer text */
+
+@media screen and (max-width: 768px) {
+    .container .upper-body .heading1{
+        font-size: 1.15rem;
+    }
+    .container .upper-body .heading2{
+        font-size: 0.75rem;
+    }
+    .container .upper-body .heading3{
+        font-size: 1.55rem;
+    }
+}
+
+/* Footer */
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85rem;
+}
+
+footer .links ul li a{
+    color: rgb(255, 149, 0);
+}
+
+/* Gallery */
+
+.container .gallery {
+  width: 100%;
+}
+
+.gallery-heading h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  margin-top: 35px;
+}
+
+.gallery-heading p {
+  font-family: 'Roboto mono', monospace;
+  margin-top: 12px;
+}
+.container .gallery img {
+  width: 65%;
+  margin-top: 10px;
+}
+
+@media screen and (max-width:768px) {
+  .container .gallery img {
+    width: 95%;
+  }
+}
+
+/* Contact Page */
+
+.contact {
+  text-align: center;
+  margin: 20px 12px;
+}
+
+.contact .contact-heading .heading1{
+  font-size: 2rem;
+  font-family: 'Pacifico',cursive;
+  margin-bottom: 20px;
+}
+
+.contact .contact-heading .heading2 {
+  font-size: 1.75rem;
+  font-family: 'Roboto mono', monospace;
+  margin: 0px 25px;
+}
+
+.contact footer{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85rem;
+  margin-top: 3rem;
+}
+
+.contact footer .links ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+.contact footer .links ul li a:hover {
+  color: red;
+}
+
+.contact footer .links ul li a{
+  color: rgb(255, 149, 0);
+  text-decoration: none;
+  font-family: 'Roboto mono', monospace;
+  border: 2px solid #2e446f;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+@media screen and (max-width:768px){
+  .contact .contact-heading .heading1 {
+    font-size: 1.25rem;
+  }
+  .contact .contact-heading .heading2 {
+    font-size: 1.15rem;
+  }
+}
