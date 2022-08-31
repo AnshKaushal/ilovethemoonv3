@@ -29,8 +29,11 @@ function App() {
         </div>
         <div class="description">
           <div class="upper-heading">
-            <h1>Let's take a short quiz after which the gallery will be available for you!</h1> 
+            <h1>Serenty beholds you, lover.</h1> 
            </div>
+           <div class="image">
+          <img src={require("./images/img-10.jpg")} alt="nope" />
+        </div>
         </div>
         <div class="image">
           <img src="./images/img-14.jpg" alt=""/>

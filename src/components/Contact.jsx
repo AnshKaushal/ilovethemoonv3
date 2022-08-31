@@ -16,7 +16,8 @@ const Contact = () => {
           I created this page so that people could know how lovable the moon can
           be. <br />
           So to promote self love and moon love, i created this website. <br />
-          If you have any questions, you can contact me anytime!
+          If you have any questions, you can contact me anytime! <br />
+          Photos credits : Unsplash, Instagram and meee!
         </h1>
       </div>
       <footer>

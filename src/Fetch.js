@@ -29,7 +29,15 @@ const Images = {
     photo28: require('./images/img-28.jpg'),
     photo29: require('./images/img-29.jpg'),
     photo30: require('./images/img-30.jpg'),
-    photo31: require('./images/img-31.jpg')
+    photo31: require('./images/img-31.jpg'),
+    photo32: require('./images/img-32.jpg'),
+    photo33: require('./images/img-33.jpg'),
+    photo34: require('./images/img-34.jpg'),
+    photo35: require('./images/img-35.jpg'),
+    photo36: require('./images/img-36.jpg'),
+    photo37: require('./images/img-37.jpg'),
+    photo38: require('./images/img-38.jpg'),
+    photo39: require('./images/img-39.jpg')
 }
 
 export default Images;

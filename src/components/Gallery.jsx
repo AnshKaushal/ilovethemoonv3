@@ -45,6 +45,14 @@ const Gallery = () => {
           <img src={Images.photo29} alt="none" />
           <img src={Images.photo30} alt="none" />
           <img src={Images.photo31} alt="none" />
+          <img src={Images.photo32} alt="none" />
+          <img src={Images.photo33} alt="none" />
+          <img src={Images.photo34} alt="none" />
+          <img src={Images.photo35} alt="none" />
+          <img src={Images.photo36} alt="none" />
+          <img src={Images.photo37} alt="none" />
+          <img src={Images.photo38} alt="none" />
+          <img src={Images.photo39} alt="none" />
         </div>
       </div>
       <footer>
